@@ -1,4 +1,8 @@
+# xxx/ : 특정 폴더 내의 파일 전부 제외
 .idea/
 _media/
 migrations/
+__pycache__/
+
+# 특정 파일 제외
 db.sqlite3

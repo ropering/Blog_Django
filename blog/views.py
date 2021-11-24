@@ -10,7 +10,7 @@ class PostList(ListView):
 
 class PostDetail(DetailView):
     model = Post
-    template_name = 'blogz/post_detail.html'
+    template_name = 'blog/post_detail.html'
 
 # def index(request):
 #     posts = Post.objects.all().order_by('-pk')
