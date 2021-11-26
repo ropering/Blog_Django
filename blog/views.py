@@ -8,6 +8,7 @@ class PostList(ListView):
     template_name = 'blog/post_list.html'
     ordering = '-pk'
 
+
 class PostDetail(DetailView):
     model = Post
     template_name = 'blog/post_detail.html'
@@ -33,3 +34,4 @@ class PostDetail(DetailView):
 #             'post': post,
 #         }
 #     )
+
